@@ -1,174 +1,253 @@
-[20:17:05] This is prokka 1.14.6
-[20:17:05] Written by Torsten Seemann <torsten.seemann@gmail.com>
-[20:17:05] Homepage is https://github.com/tseemann/prokka
-[20:17:05] Local time is Fri Nov 15 20:17:05 2024
-[20:17:05] You are joaokasprowicz
-[20:17:05] Operating system is darwin
-[20:17:05] You have BioPerl 1.7.8
-[20:17:05] System has 8 cores.
-[20:17:05] Will use maximum of 8 cores.
-[20:17:05] Annotating as >>> Bacteria <<<
-[20:17:05] Generating locus_tag from '/Users/joaokasprowicz/Documents/Dev/bioinformatics/ncbi_dataset/ncbi_dataset/data/GCF_025998455.1/GCF_025998455.1_ASM2599845v1_genomic.fna' contents.
-[20:17:05] Setting --locustag JMMDLIMG from MD5 366d5260707db0d26ffa917908e59a99
-[20:17:05] Creating new output folder: ./annotation_results
-[20:17:05] Running: mkdir -p \.\/annotation_results
-[20:17:05] Using filename prefix: helicobacter_pylori.XXX
-[20:17:05] Setting HMMER_NCPU=1
-[20:17:05] Writing log to: ./annotation_results/helicobacter_pylori.log
-[20:17:05] Command: /opt/homebrew/bin/prokka --outdir ./annotation_results --prefix helicobacter_pylori /Users/joaokasprowicz/Documents/Dev/bioinformatics/ncbi_dataset/ncbi_dataset/data/GCF_025998455.1/GCF_025998455.1_ASM2599845v1_genomic.fna
-[20:17:05] Appending to PATH: /opt/homebrew/Cellar/prokka/1.14.6_1/bin
-[20:17:05] Looking for 'aragorn' - found /opt/homebrew/bin/aragorn
-[20:17:05] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
-[20:17:05] Looking for 'barrnap' - found /opt/homebrew/bin/barrnap
-[20:17:05] Determined barrnap version is 000009 from 'barrnap 0.9'
-[20:17:05] Looking for 'blastp' - found /opt/homebrew/bin/blastp
-[20:17:06] Determined blastp version is 002016 from 'blastp: 2.16.0+'
-[20:17:06] Looking for 'cmpress' - found /opt/homebrew/bin/cmpress
-[20:17:06] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
-[20:17:06] Looking for 'cmscan' - found /opt/homebrew/bin/cmscan
-[20:17:06] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
-[20:17:06] Looking for 'egrep' - found /usr/bin/egrep
-[20:17:06] Looking for 'find' - found /usr/bin/find
-[20:17:06] Looking for 'grep' - found /usr/bin/grep
-[20:17:06] Looking for 'hmmpress' - found /opt/homebrew/bin/hmmpress
-[20:17:06] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
-[20:17:06] Looking for 'hmmscan' - found /opt/homebrew/bin/hmmscan
-[20:17:06] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
-[20:17:06] Looking for 'java' - found /usr/bin/java
-[20:17:06] Looking for 'makeblastdb' - found /opt/homebrew/bin/makeblastdb
-[20:17:07] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
-[20:17:07] Looking for 'minced' - found /opt/homebrew/bin/minced
-[20:17:07] Determined minced version is 004002 from 'minced 0.4.2'
-[20:17:07] Looking for 'parallel' - found /opt/homebrew/bin/parallel
-[20:17:07] Determined parallel version is 20241022 from 'GNU parallel 20241022'
-[20:17:07] Looking for 'prodigal' - found /opt/homebrew/bin/prodigal
-[20:17:07] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
-[20:17:07] Looking for 'prokka-genbank_to_fasta_db' - found /opt/homebrew/bin/prokka-genbank_to_fasta_db
-[20:17:07] Looking for 'sed' - found /usr/bin/sed
-[20:17:07] Looking for 'tbl2asn' - found /opt/homebrew/Caskroom/miniforge/base/envs/helicobacter_env/bin/tbl2asn
-[20:17:09] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
-[20:17:09] Using genetic code table 11.
-[20:17:09] Loading and checking input file: /Users/joaokasprowicz/Documents/Dev/bioinformatics/ncbi_dataset/ncbi_dataset/data/GCF_025998455.1/GCF_025998455.1_ASM2599845v1_genomic.fna
-[20:17:09] Wrote 1 contigs totalling 1696601 bp.
-[20:17:09] Predicting tRNAs and tmRNAs
-[20:17:09] Running: aragorn -l -gc11  -w \.\/annotation_results\/helicobacter_pylori\.fna
-[20:17:10] 1 tRNA-Phe c[3125,3200] 34 (gaa)
-[20:17:10] 2 tRNA-Val c[190294,190369] 34 (gac)
-[20:17:10] 3 tRNA-Ser [206516,206607] 36 (gct)
-[20:17:10] 4 tRNA-Asn c[348164,348238] 33 (gtt)
-[20:17:10] 5 tRNA-Ala c[370889,370964] 34 (ggc)
-[20:17:10] 6 tRNA-Arg [453368,453444] 35 (gcg)
-[20:17:10] 7 tRNA-Ser c[505077,505164] 35 (gga)
-[20:17:10] 8 tRNA-Pro c[557936,558013] 36 (ggg)
-[20:17:10] 9 tRNA-Met c[900293,900369] 35 (cat)
-[20:17:10] 10 tmRNA c[940959,941344] 54,128 ATCKTATKITVNNTDYAPAYAKAA*
-[20:17:10] 11 tRNA-Arg [992711,992787] 35 (cct)
-[20:17:10] 12 tRNA-Met c[1052757,1052833] 35 (cat)
-[20:17:10] 13 tRNA-Gln c[1052860,1052934] 33 (ttg)
-[20:17:10] 14 tRNA-Gly [1109976,1110050] 33 (gcc)
-[20:17:10] 15 tRNA-Leu [1110446,1110532] 35 (taa)
-[20:17:10] 16 tRNA-Cys [1110607,1110681] 33 (gca)
-[20:17:10] 17 tRNA-Ser [1110727,1110814] 35 (tga)
-[20:17:10] 18 tRNA-Glu c[1273563,1273638] 35 (ttc)
-[20:17:10] 19 tRNA-Asp c[1273702,1273778] 35 (gtc)
-[20:17:10] 20 tRNA-Val c[1273819,1273894] 34 (tac)
-[20:17:10] 21 tRNA-Glu c[1273936,1274010] 34 (ttc)
-[20:17:10] 22 tRNA-Lys c[1274021,1274096] 34 (ttt)
-[20:17:10] 23 tRNA-Leu [1443217,1443303] 35 (gag)
-[20:17:10] 24 tRNA-Leu [1443359,1443445] 35 (caa)
-[20:17:10] 25 tRNA-Thr [1448750,1448825] 34 (tgt)
-[20:17:10] 26 tRNA-Tyr [1448853,1448937] 35 (gta)
-[20:17:10] 27 tRNA-Gly [1448953,1449029] 35 (tcc)
-[20:17:10] 28 tRNA-Thr [1449060,1449134] 33 (ggt)
-[20:17:10] 29 tRNA-Trp [1450692,1450767] 34 (cca)
-[20:17:10] 30 tRNA-Met [1479227,1479304] 36 (cat)
-[20:17:10] 31 tRNA-Ala c[1571928,1572003] 34 (tgc)
-[20:17:10] 32 tRNA-Ile c[1572019,1572095] 35 (gat)
-[20:17:10] 33 tRNA-Leu [1576879,1576963] 35 (tag)
-[20:17:10] 34 tRNA-Pro [1626082,1626159] 36 (tgg)
-[20:17:10] 35 tRNA-His [1626227,1626303] 35 (gtg)
-[20:17:10] 36 tRNA-Arg [1626363,1626439] 35 (tcg)
-[20:17:10] 37 tRNA-Arg [1626458,1626534] 35 (tct)
-[20:17:10] Found 37 tRNAs
-[20:17:10] Predicting Ribosomal RNAs
-[20:17:10] Running Barrnap with 8 threads
-[20:17:11] 1 NZ_AP026446.1 96030 16S ribosomal RNA
-[20:17:11] 2 NZ_AP026446.1 128511 23S ribosomal RNA
-[20:17:11] 3 NZ_AP026446.1 1145091 23S ribosomal RNA
-[20:17:11] 4 NZ_AP026446.1 1520236 16S ribosomal RNA
-[20:17:11] Found 4 rRNAs
-[20:17:11] Skipping ncRNA search, enable with --rfam if desired.
-[20:17:11] Total of 40 tRNA + rRNA features
-[20:17:11] Searching for CRISPR repeats
-[20:17:11] CRISPR1 NZ_AP026446.1 241215 with 4 spacers
-[20:17:11] Found 1 CRISPRs
-[20:17:11] Predicting coding sequences
-[20:17:11] Contigs total 1696601 bp, so using single mode
-[20:17:11] Running: prodigal -i \.\/annotation_results\/helicobacter_pylori\.fna -c -m -g 11 -p single -f sco -q
-[20:17:12] Excluding CDS which overlaps existing RNA (repeat_region) at NZ_AP026446.1:240633..241898 on - strand
-[20:17:12] Excluding CDS which overlaps existing RNA (tRNA) at NZ_AP026446.1:900331..901476 on - strand
-[20:17:13] Found 1583 CDS
-[20:17:13] Connecting features back to sequences
-[20:17:13] Not using genus-specific database. Try --usegenus to enable it.
-[20:17:13] Annotating CDS, please be patient.
-[20:17:13] Will use 8 CPUs for similarity searching.
-[20:17:13] There are still 1583 unannotated CDS left (started with 1583)
-[20:17:13] Will use blast to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/IS with 8 CPUs
-[20:17:13] Running: cat \.\/annotation_results\/helicobacter_pylori\.IS\.tmp\.95480\.faa | parallel --gnu --plain -j 8 --block 32742 --recstart '>' --pipe blastp -query - -db /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/annotation_results\/helicobacter_pylori\.IS\.tmp\.95480\.blast 2> /dev/null
-[20:17:20] Deleting unwanted file: ./annotation_results/helicobacter_pylori.IS.tmp.95480.faa
-[20:17:20] Deleting unwanted file: ./annotation_results/helicobacter_pylori.IS.tmp.95480.blast
-[20:17:20] There are still 1582 unannotated CDS left (started with 1583)
-[20:17:20] Will use blast to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/AMR with 8 CPUs
-[20:17:20] Running: cat \.\/annotation_results\/helicobacter_pylori\.AMR\.tmp\.95480\.faa | parallel --gnu --plain -j 8 --block 32722 --recstart '>' --pipe blastp -query - -db /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/annotation_results\/helicobacter_pylori\.AMR\.tmp\.95480\.blast 2> /dev/null
-[20:17:25] Deleting unwanted file: ./annotation_results/helicobacter_pylori.AMR.tmp.95480.faa
-[20:17:25] Deleting unwanted file: ./annotation_results/helicobacter_pylori.AMR.tmp.95480.blast
-[20:17:26] There are still 1582 unannotated CDS left (started with 1583)
-[20:17:26] Will use blast to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/sprot with 8 CPUs
-[20:17:26] Running: cat \.\/annotation_results\/helicobacter_pylori\.sprot\.tmp\.95480\.faa | parallel --gnu --plain -j 8 --block 32722 --recstart '>' --pipe blastp -query - -db /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/annotation_results\/helicobacter_pylori\.sprot\.tmp\.95480\.blast 2> /dev/null
-[20:17:42] Modify product: Probable dual-specificity RNA methyltransferase RlmN => putative dual-specificity RNA methyltransferase RlmN
-[20:17:42] Modify product: Uncharacterized protein HP_1423 => putative protein
-[20:17:42] Modify product: Nucleoid-associated protein HP_0035 => Nucleoid-associated protein
-[20:17:42] Modify product: Putative 2-hydroxyacid dehydrogenase HI_1556 => Putative 2-hydroxyacid dehydrogenase
-[20:17:42] Modify product: Aminopeptidase HP_1037 => Aminopeptidase
-[20:17:42] Modify product: Uncharacterized AAA domain-containing protein Rv2559c => putative AAA domain-containing protein
-[20:17:42] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
-[20:17:42] Modify product: Uncharacterized protein HP_0495 => putative protein
-[20:17:42] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
-[20:17:42] Modify product: UPF0053 protein Rv1842c => hypothetical protein
-[20:17:42] Modify product: UPF0194 membrane protein YbhG => hypothetical protein
-[20:17:42] Modify product: Uncharacterized ABC transporter ATP-binding protein YejF => putative ABC transporter ATP-binding protein YejF
-[20:17:42] Modify product: Putative transport protein Rv1101c => Putative transport protein
-[20:17:42] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
-[20:17:42] Modify product: Uncharacterized protein NMB1437 => putative protein
-[20:17:42] Modify product: Probable transcriptional regulatory protein HP_0162 => putative transcriptional regulatory protein
-[20:17:42] Modify product: Putative peptidyl-prolyl cis-trans isomerase HP_0175 => Putative peptidyl-prolyl cis-trans isomerase
-[20:17:42] Modify product: Uncharacterized RNA pseudouridine synthase HP_0347 => putative RNA pseudouridine synthase
-[20:17:42] Modify product: Chemotaxis protein CheY homolog => Chemotaxis protein CheY 
-[20:17:42] Modify product: Uncharacterized protein Rv2581c => putative protein
-[20:17:42] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
-[20:17:42] Modify product: Uncharacterized ABC transporter ATP-binding protein YbiT => putative ABC transporter ATP-binding protein YbiT
-[20:17:42] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
-[20:17:42] Modify product: Probable L-asparaginase => putative L-asparaginase
-[20:17:42] Modify product: Probable FMN/FAD exporter YeeO => putative FMN/FAD exporter YeeO
-[20:17:42] Modify product: Probable molybdenum cofactor guanylyltransferase => putative molybdenum cofactor guanylyltransferase
-[20:17:42] Modify product: Uncharacterized ABC transporter ATP-binding protein HI_1470 => putative ABC transporter ATP-binding protein
-[20:17:42] Modify product: Probable tautomerase HP_0924 => putative tautomerase
-[20:17:42] Modify product: Probable amino-acid ABC transporter-binding protein HI_1080 => putative amino-acid ABC transporter-binding protein
-[20:17:42] Modify product: RutC family protein HI_0719 => RutC family protein
-[20:17:42] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
-[20:17:42] Modify product: Uncharacterized HIT-like protein HP_0404 => putative HIT-like protein
-[20:17:42] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
-[20:17:42] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
-[20:17:42] Modify product: UPF0053 inner membrane protein YgdQ => hypothetical protein
-[20:17:42] Modify product: Protein HP_1247 => Protein
-[20:17:42] Modify product: Multidrug efflux system ATP-binding protein Rv1218c => Multidrug efflux system ATP-binding protein
-[20:17:42] Modify product: Uncharacterized protein Rv2030c => putative protein
-[20:17:42] Modify product: Probable chromosome-partitioning protein ParB => putative chromosome-partitioning protein ParB
-[20:17:42] Modify product: Probable formaldehyde dehydrogenase AdhA => putative formaldehyde dehydrogenase AdhA
-[20:17:42] Modify product: Uncharacterized protein HP_1531 => putative protein
-[20:17:42] Cleaned 41 /product names
-[20:17:42] Deleting unwanted file: ./annotation_results/helicobacter_pylori.sprot.tmp.95480.faa
-[20:17:42] Deleting unwanted file: ./annotation_results/helicobacter_pylori.sprot.tmp.95480.blast
-[20:17:42] There are still 858 unannotated CDS left (started with 1583)
-[20:17:42] Will use hmmer3 to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/hmm/HAMAP.hmm with 8 CPUs
-[20:17:42] Running: cat \.\/annotation_results\/helicobacter_pylori\.HAMAP\.hmm\.tmp\.95480\.faa | parallel --gnu --plain -j 8 --block 16617 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /opt/homebrew/Cellar/prokka/1.14.6_1/db/hmm/HAMAP.hmm /dev/stdin > \.\/annotation_results\/helicobacter_pylori\.HAMAP\.hmm\.tmp\.95480\.hmmer3 2> /dev/null
+[19:32:17] This is prokka 1.14.6
+[19:32:17] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[19:32:17] Homepage is https://github.com/tseemann/prokka
+[19:32:17] Local time is Sat Nov 16 19:32:17 2024
+[19:32:17] You are joaokasprowicz
+[19:32:17] Operating system is darwin
+[19:32:17] You have BioPerl 1.7.8
+[19:32:17] System has 8 cores.
+[19:32:17] Will use maximum of 8 cores.
+[19:32:17] Annotating as >>> Bacteria <<<
+[19:32:17] Generating locus_tag from '/Users/joaokasprowicz/Documents/Dev/bioinformatics/ncbi_dataset/ncbi_dataset/data/GCA_025998455.1/GCA_025998455.1_ASM2599845v1_genomic.fna' contents.
+[19:32:17] Setting --locustag DMFIPHNE from MD5 d6f2917e47717ae71e2a1b6da1e3ec2a
+[19:32:17] Creating new output folder: ./annotation_results
+[19:32:17] Running: mkdir -p \.\/annotation_results
+[19:32:17] Using filename prefix: helicobacter_pylori.XXX
+[19:32:17] Setting HMMER_NCPU=1
+[19:32:17] Writing log to: ./annotation_results/helicobacter_pylori.log
+[19:32:17] Command: /opt/homebrew/bin/prokka --outdir ./annotation_results --prefix helicobacter_pylori --kingdom Bacteria /Users/joaokasprowicz/Documents/Dev/bioinformatics/ncbi_dataset/ncbi_dataset/data/GCA_025998455.1/GCA_025998455.1_ASM2599845v1_genomic.fna
+[19:32:17] Appending to PATH: /opt/homebrew/Cellar/prokka/1.14.6_1/bin
+[19:32:17] Looking for 'aragorn' - found /opt/homebrew/bin/aragorn
+[19:32:17] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[19:32:17] Looking for 'barrnap' - found /opt/homebrew/bin/barrnap
+[19:32:17] Determined barrnap version is 000009 from 'barrnap 0.9'
+[19:32:17] Looking for 'blastp' - found /opt/homebrew/bin/blastp
+[19:32:19] Determined blastp version is 002016 from 'blastp: 2.16.0+'
+[19:32:19] Looking for 'cmpress' - found /opt/homebrew/bin/cmpress
+[19:32:19] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[19:32:19] Looking for 'cmscan' - found /opt/homebrew/bin/cmscan
+[19:32:19] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[19:32:19] Looking for 'egrep' - found /usr/bin/egrep
+[19:32:19] Looking for 'find' - found /usr/bin/find
+[19:32:19] Looking for 'grep' - found /usr/bin/grep
+[19:32:19] Looking for 'hmmpress' - found /opt/homebrew/bin/hmmpress
+[19:32:19] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[19:32:19] Looking for 'hmmscan' - found /opt/homebrew/bin/hmmscan
+[19:32:19] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[19:32:19] Looking for 'java' - found /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java
+[19:32:19] Looking for 'makeblastdb' - found /opt/homebrew/bin/makeblastdb
+[19:32:20] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
+[19:32:20] Looking for 'minced' - found /opt/homebrew/bin/minced
+[19:32:20] Determined minced version is 004002 from 'minced 0.4.2'
+[19:32:20] Looking for 'parallel' - found /opt/homebrew/bin/parallel
+[19:32:20] Determined parallel version is 20241022 from 'GNU parallel 20241022'
+[19:32:20] Looking for 'prodigal' - found /opt/homebrew/bin/prodigal
+[19:32:20] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[19:32:20] Looking for 'prokka-genbank_to_fasta_db' - found /opt/homebrew/bin/prokka-genbank_to_fasta_db
+[19:32:20] Looking for 'sed' - found /usr/bin/sed
+[19:32:20] Looking for 'tbl2asn' - found /opt/homebrew/Caskroom/miniforge/base/envs/helicobacter_env/bin/tbl2asn
+[19:32:21] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
+[19:32:21] Using genetic code table 11.
+[19:32:21] Loading and checking input file: /Users/joaokasprowicz/Documents/Dev/bioinformatics/ncbi_dataset/ncbi_dataset/data/GCA_025998455.1/GCA_025998455.1_ASM2599845v1_genomic.fna
+[19:32:21] Wrote 1 contigs totalling 1696601 bp.
+[19:32:21] Predicting tRNAs and tmRNAs
+[19:32:21] Running: aragorn -l -gc11  -w \.\/annotation_results\/helicobacter_pylori\.fna
+[19:32:21] 1 tRNA-Phe c[3125,3200] 34 (gaa)
+[19:32:21] 2 tRNA-Val c[190294,190369] 34 (gac)
+[19:32:21] 3 tRNA-Ser [206516,206607] 36 (gct)
+[19:32:21] 4 tRNA-Asn c[348164,348238] 33 (gtt)
+[19:32:21] 5 tRNA-Ala c[370889,370964] 34 (ggc)
+[19:32:21] 6 tRNA-Arg [453368,453444] 35 (gcg)
+[19:32:21] 7 tRNA-Ser c[505077,505164] 35 (gga)
+[19:32:21] 8 tRNA-Pro c[557936,558013] 36 (ggg)
+[19:32:21] 9 tRNA-Met c[900293,900369] 35 (cat)
+[19:32:21] 10 tmRNA c[940959,941344] 54,128 ATCKTATKITVNNTDYAPAYAKAA*
+[19:32:21] 11 tRNA-Arg [992711,992787] 35 (cct)
+[19:32:21] 12 tRNA-Met c[1052757,1052833] 35 (cat)
+[19:32:21] 13 tRNA-Gln c[1052860,1052934] 33 (ttg)
+[19:32:21] 14 tRNA-Gly [1109976,1110050] 33 (gcc)
+[19:32:21] 15 tRNA-Leu [1110446,1110532] 35 (taa)
+[19:32:21] 16 tRNA-Cys [1110607,1110681] 33 (gca)
+[19:32:21] 17 tRNA-Ser [1110727,1110814] 35 (tga)
+[19:32:21] 18 tRNA-Glu c[1273563,1273638] 35 (ttc)
+[19:32:21] 19 tRNA-Asp c[1273702,1273778] 35 (gtc)
+[19:32:21] 20 tRNA-Val c[1273819,1273894] 34 (tac)
+[19:32:21] 21 tRNA-Glu c[1273936,1274010] 34 (ttc)
+[19:32:21] 22 tRNA-Lys c[1274021,1274096] 34 (ttt)
+[19:32:21] 23 tRNA-Leu [1443217,1443303] 35 (gag)
+[19:32:21] 24 tRNA-Leu [1443359,1443445] 35 (caa)
+[19:32:21] 25 tRNA-Thr [1448750,1448825] 34 (tgt)
+[19:32:21] 26 tRNA-Tyr [1448853,1448937] 35 (gta)
+[19:32:21] 27 tRNA-Gly [1448953,1449029] 35 (tcc)
+[19:32:21] 28 tRNA-Thr [1449060,1449134] 33 (ggt)
+[19:32:21] 29 tRNA-Trp [1450692,1450767] 34 (cca)
+[19:32:21] 30 tRNA-Met [1479227,1479304] 36 (cat)
+[19:32:21] 31 tRNA-Ala c[1571928,1572003] 34 (tgc)
+[19:32:21] 32 tRNA-Ile c[1572019,1572095] 35 (gat)
+[19:32:21] 33 tRNA-Leu [1576879,1576963] 35 (tag)
+[19:32:21] 34 tRNA-Pro [1626082,1626159] 36 (tgg)
+[19:32:21] 35 tRNA-His [1626227,1626303] 35 (gtg)
+[19:32:21] 36 tRNA-Arg [1626363,1626439] 35 (tcg)
+[19:32:21] 37 tRNA-Arg [1626458,1626534] 35 (tct)
+[19:32:21] Found 37 tRNAs
+[19:32:21] Predicting Ribosomal RNAs
+[19:32:21] Running Barrnap with 8 threads
+[19:32:22] 1 AP026446.1 96030 16S ribosomal RNA
+[19:32:22] 2 AP026446.1 128511 23S ribosomal RNA
+[19:32:22] 3 AP026446.1 1145091 23S ribosomal RNA
+[19:32:22] 4 AP026446.1 1520236 16S ribosomal RNA
+[19:32:22] Found 4 rRNAs
+[19:32:22] Skipping ncRNA search, enable with --rfam if desired.
+[19:32:22] Total of 40 tRNA + rRNA features
+[19:32:22] Searching for CRISPR repeats
+[19:32:22] CRISPR1 AP026446.1 241215 with 4 spacers
+[19:32:22] Found 1 CRISPRs
+[19:32:22] Predicting coding sequences
+[19:32:22] Contigs total 1696601 bp, so using single mode
+[19:32:22] Running: prodigal -i \.\/annotation_results\/helicobacter_pylori\.fna -c -m -g 11 -p single -f sco -q
+[19:32:23] Excluding CDS which overlaps existing RNA (repeat_region) at AP026446.1:240633..241898 on - strand
+[19:32:23] Excluding CDS which overlaps existing RNA (tRNA) at AP026446.1:900331..901476 on - strand
+[19:32:24] Found 1583 CDS
+[19:32:24] Connecting features back to sequences
+[19:32:24] Not using genus-specific database. Try --usegenus to enable it.
+[19:32:24] Annotating CDS, please be patient.
+[19:32:24] Will use 8 CPUs for similarity searching.
+[19:32:24] There are still 1583 unannotated CDS left (started with 1583)
+[19:32:24] Will use blast to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/IS with 8 CPUs
+[19:32:24] Running: cat \.\/annotation_results\/helicobacter_pylori\.IS\.tmp\.9088\.faa | parallel --gnu --plain -j 8 --block 32742 --recstart '>' --pipe blastp -query - -db /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/annotation_results\/helicobacter_pylori\.IS\.tmp\.9088\.blast 2> /dev/null
+[19:32:30] Deleting unwanted file: ./annotation_results/helicobacter_pylori.IS.tmp.9088.faa
+[19:32:30] Deleting unwanted file: ./annotation_results/helicobacter_pylori.IS.tmp.9088.blast
+[19:32:31] There are still 1582 unannotated CDS left (started with 1583)
+[19:32:31] Will use blast to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/AMR with 8 CPUs
+[19:32:31] Running: cat \.\/annotation_results\/helicobacter_pylori\.AMR\.tmp\.9088\.faa | parallel --gnu --plain -j 8 --block 32722 --recstart '>' --pipe blastp -query - -db /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/annotation_results\/helicobacter_pylori\.AMR\.tmp\.9088\.blast 2> /dev/null
+[19:32:36] Deleting unwanted file: ./annotation_results/helicobacter_pylori.AMR.tmp.9088.faa
+[19:32:36] Deleting unwanted file: ./annotation_results/helicobacter_pylori.AMR.tmp.9088.blast
+[19:32:37] There are still 1582 unannotated CDS left (started with 1583)
+[19:32:37] Will use blast to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/sprot with 8 CPUs
+[19:32:37] Running: cat \.\/annotation_results\/helicobacter_pylori\.sprot\.tmp\.9088\.faa | parallel --gnu --plain -j 8 --block 32722 --recstart '>' --pipe blastp -query - -db /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/annotation_results\/helicobacter_pylori\.sprot\.tmp\.9088\.blast 2> /dev/null
+[19:32:52] Modify product: Probable dual-specificity RNA methyltransferase RlmN => putative dual-specificity RNA methyltransferase RlmN
+[19:32:52] Modify product: Uncharacterized protein HP_1423 => putative protein
+[19:32:52] Modify product: Nucleoid-associated protein HP_0035 => Nucleoid-associated protein
+[19:32:52] Modify product: Putative 2-hydroxyacid dehydrogenase HI_1556 => Putative 2-hydroxyacid dehydrogenase
+[19:32:52] Modify product: UPF0053 protein Rv1842c => hypothetical protein
+[19:32:52] Modify product: UPF0194 membrane protein YbhG => hypothetical protein
+[19:32:52] Modify product: Aminopeptidase HP_1037 => Aminopeptidase
+[19:32:52] Modify product: Uncharacterized AAA domain-containing protein Rv2559c => putative AAA domain-containing protein
+[19:32:52] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[19:32:52] Modify product: Uncharacterized protein HP_0495 => putative protein
+[19:32:52] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[19:32:52] Modify product: Uncharacterized protein NMB1437 => putative protein
+[19:32:52] Modify product: Probable transcriptional regulatory protein HP_0162 => putative transcriptional regulatory protein
+[19:32:52] Modify product: Putative peptidyl-prolyl cis-trans isomerase HP_0175 => Putative peptidyl-prolyl cis-trans isomerase
+[19:32:52] Modify product: Uncharacterized ABC transporter ATP-binding protein YejF => putative ABC transporter ATP-binding protein YejF
+[19:32:52] Modify product: Uncharacterized RNA pseudouridine synthase HP_0347 => putative RNA pseudouridine synthase
+[19:32:52] Modify product: Chemotaxis protein CheY homolog => Chemotaxis protein CheY 
+[19:32:52] Modify product: Putative transport protein Rv1101c => Putative transport protein
+[19:32:52] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[19:32:52] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[19:32:52] Modify product: Probable L-asparaginase => putative L-asparaginase
+[19:32:52] Modify product: Probable FMN/FAD exporter YeeO => putative FMN/FAD exporter YeeO
+[19:32:52] Modify product: Probable molybdenum cofactor guanylyltransferase => putative molybdenum cofactor guanylyltransferase
+[19:32:52] Modify product: Uncharacterized protein Rv2581c => putative protein
+[19:32:52] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
+[19:32:52] Modify product: Uncharacterized ABC transporter ATP-binding protein YbiT => putative ABC transporter ATP-binding protein YbiT
+[19:32:52] Modify product: Uncharacterized ABC transporter ATP-binding protein HI_1470 => putative ABC transporter ATP-binding protein
+[19:32:52] Modify product: Probable tautomerase HP_0924 => putative tautomerase
+[19:32:52] Modify product: Probable amino-acid ABC transporter-binding protein HI_1080 => putative amino-acid ABC transporter-binding protein
+[19:32:52] Modify product: RutC family protein HI_0719 => RutC family protein
+[19:32:52] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[19:32:52] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
+[19:32:52] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+[19:32:52] Modify product: UPF0053 inner membrane protein YgdQ => hypothetical protein
+[19:32:53] Modify product: Protein HP_1247 => Protein
+[19:32:53] Modify product: Multidrug efflux system ATP-binding protein Rv1218c => Multidrug efflux system ATP-binding protein
+[19:32:53] Modify product: Uncharacterized protein Rv2030c => putative protein
+[19:32:53] Modify product: Uncharacterized HIT-like protein HP_0404 => putative HIT-like protein
+[19:32:53] Modify product: Probable chromosome-partitioning protein ParB => putative chromosome-partitioning protein ParB
+[19:32:53] Modify product: Probable formaldehyde dehydrogenase AdhA => putative formaldehyde dehydrogenase AdhA
+[19:32:53] Modify product: Uncharacterized protein HP_1531 => putative protein
+[19:32:53] Cleaned 41 /product names
+[19:32:53] Deleting unwanted file: ./annotation_results/helicobacter_pylori.sprot.tmp.9088.faa
+[19:32:53] Deleting unwanted file: ./annotation_results/helicobacter_pylori.sprot.tmp.9088.blast
+[19:32:53] There are still 858 unannotated CDS left (started with 1583)
+[19:32:53] Will use hmmer3 to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/hmm/HAMAP.hmm with 8 CPUs
+[19:32:53] Running: cat \.\/annotation_results\/helicobacter_pylori\.HAMAP\.hmm\.tmp\.9088\.faa | parallel --gnu --plain -j 8 --block 16617 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /opt/homebrew/Cellar/prokka/1.14.6_1/db/hmm/HAMAP.hmm /dev/stdin > \.\/annotation_results\/helicobacter_pylori\.HAMAP\.hmm\.tmp\.9088\.hmmer3 2> /dev/null
+[19:33:03] Modify product: Uncharacterized MFS-type transporter YfcJ => putative MFS-type transporter YfcJ
+[19:33:03] Cleaned 1 /product names
+[19:33:03] Deleting unwanted file: ./annotation_results/helicobacter_pylori.HAMAP.hmm.tmp.9088.faa
+[19:33:03] Deleting unwanted file: ./annotation_results/helicobacter_pylori.HAMAP.hmm.tmp.9088.hmmer3
+[19:33:03] Labelling remaining 745 proteins as 'hypothetical protein'
+[19:33:03] Possible /pseudo 'L-lactate permease' at AP026446.1 position 261734
+[19:33:03] Possible /pseudo 'Oxygen-insensitive NADPH nitroreductase' at AP026446.1 position 1118437
+[19:33:03] Possible /pseudo 'Glutamine transport system permease protein GlnP' at AP026446.1 position 1491049
+[19:33:03] Possible /pseudo 'ATP synthase subunit b' at AP026446.1 position 1530373
+[19:33:03] Found 747 unique /gene codes.
+[19:33:03] Fixed 3 duplicate /gene - topA_1 topA_2 topA_3
+[19:33:03] Fixed 2 duplicate /gene - lldP_1 lldP_2
+[19:33:03] Fixed 2 duplicate /gene - mnmA_1 mnmA_2
+[19:33:03] Fixed 2 duplicate /gene - trpC_1 trpC_2
+[19:33:03] Fixed 2 duplicate /gene - dpnA_1 dpnA_2
+[19:33:03] Fixed 2 duplicate /gene - pyrC_1 pyrC_2
+[19:33:03] Fixed 2 duplicate /gene - trxA_1 trxA_2
+[19:33:03] Fixed 2 duplicate /gene - ptlH_1 ptlH_2
+[19:33:03] Fixed 2 duplicate /gene - moaA_1 moaA_2
+[19:33:03] Fixed 2 duplicate /gene - htpX_1 htpX_2
+[19:33:03] Fixed 3 duplicate /gene - prmC_1 prmC_2 prmC_3
+[19:33:03] Fixed 2 duplicate /gene - fecA_1 fecA_2
+[19:33:03] Fixed 2 duplicate /gene - copA_1 copA_2
+[19:33:03] Fixed 2 duplicate /gene - btuD_1 btuD_2
+[19:33:03] Fixed 2 duplicate /gene - hcpA_1 hcpA_2
+[19:33:03] Fixed 3 duplicate /gene - tolQ_1 tolQ_2 tolQ_3
+[19:33:03] Fixed 2 duplicate /gene - rdxA_1 rdxA_2
+[19:33:03] Fixed 2 duplicate /gene - cmoA_1 cmoA_2
+[19:33:03] Fixed 2 duplicate /gene - virB4_1 virB4_2
+[19:33:03] Fixed 2 duplicate /gene - dnaG_1 dnaG_2
+[19:33:03] Fixed 2 duplicate /gene - glnP_1 glnP_2
+[19:33:03] Fixed 2 duplicate /gene - atpD_1 atpD_2
+[19:33:03] Fixed 3 duplicate /gene - cheV_1 cheV_2 cheV_3
+[19:33:03] Fixed 2 duplicate /gene - radA_1 radA_2
+[19:33:03] Fixed 2 duplicate /gene - ndhB_1 ndhB_2
+[19:33:03] Fixed 4 duplicate /gene - btuB_1 btuB_2 btuB_3 btuB_4
+[19:33:03] Fixed 3 duplicate /gene - xerH_1 xerH_2 xerH_3
+[19:33:03] Fixed 2 duplicate /gene - fucT_1 fucT_2
+[19:33:03] Fixed 2 duplicate /gene - flgG_1 flgG_2
+[19:33:03] Fixed 2 duplicate /gene - murE_1 murE_2
+[19:33:03] Fixed 2 duplicate /gene - atpF_1 atpF_2
+[19:33:03] Fixed 2 duplicate /gene - ftsY_1 ftsY_2
+[19:33:03] Fixed 2 duplicate /gene - rsxB_1 rsxB_2
+[19:33:03] Fixed 2 duplicate /gene - exbD_1 exbD_2
+[19:33:03] Fixed 2 duplicate /gene - ftsH_1 ftsH_2
+[19:33:03] Fixed 35 colliding /gene names.
+[19:33:03] Adding /locus_tag identifiers
+[19:33:03] Assigned 1624 locus_tags to CDS and RNA features.
+[19:33:03] Writing outputs to ./annotation_results/
+[19:33:03] Generating annotation statistics file
+[19:33:03] Generating Genbank and Sequin files
+[19:33:03] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \.\/annotation_results\/helicobacter_pylori\.err -i \.\/annotation_results\/helicobacter_pylori\.fsa 2> /dev/null
+[19:33:05] Deleting unwanted file: ./annotation_results/errorsummary.val
+[19:33:05] Deleting unwanted file: ./annotation_results/helicobacter_pylori.dr
+[19:33:05] Deleting unwanted file: ./annotation_results/helicobacter_pylori.fixedproducts
+[19:33:05] Deleting unwanted file: ./annotation_results/helicobacter_pylori.ecn
+[19:33:05] Deleting unwanted file: ./annotation_results/helicobacter_pylori.val
+[19:33:05] Repairing broken .GBK output that tbl2asn produces...
+[19:33:05] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \.\/annotation_results\/helicobacter_pylori\.gbf > \.\/annotation_results\/helicobacter_pylori\.gbk
+[19:33:05] Deleting unwanted file: ./annotation_results/helicobacter_pylori.gbf
+[19:33:05] Output files:
+[19:33:05] ./annotation_results/helicobacter_pylori.txt
+[19:33:05] ./annotation_results/helicobacter_pylori.sqn
+[19:33:05] ./annotation_results/helicobacter_pylori.tbl
+[19:33:05] ./annotation_results/helicobacter_pylori.gff
+[19:33:05] ./annotation_results/helicobacter_pylori.err
+[19:33:05] ./annotation_results/helicobacter_pylori.fna
+[19:33:05] ./annotation_results/helicobacter_pylori.tsv
+[19:33:05] ./annotation_results/helicobacter_pylori.ffn
+[19:33:05] ./annotation_results/helicobacter_pylori.log
+[19:33:05] ./annotation_results/helicobacter_pylori.gbk
+[19:33:05] ./annotation_results/helicobacter_pylori.fsa
+[19:33:05] ./annotation_results/helicobacter_pylori.faa
+[19:33:05] Annotation finished successfully.
+[19:33:05] Walltime used: 0.80 minutes
+[19:33:05] If you use this result please cite the Prokka paper:
+[19:33:05] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[19:33:05] Type 'prokka --citation' for more details.
+[19:33:05] Thank you, come again.

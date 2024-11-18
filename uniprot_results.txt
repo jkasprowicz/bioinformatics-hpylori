@@ -1,0 +1,25 @@
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'PROSITE-ProRule', 'id': 'PRU00700'}], 'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000303', 'source': 'PubMed', 'id': '16244137'}], 'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'PROSITE-ProRule', 'id': 'PRU00700'}], 'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000305'}], 'value': 'Urease 2'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000303', 'source': 'PubMed', 'id': '20631318'}], 'value': 'Urease'}
+Gene: ureA, Function: {'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'PROSITE-ProRule', 'id': 'PRU00700'}], 'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'HAMAP-Rule', 'id': 'MF_01955'}], 'value': 'Urease subunit alpha'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'PROSITE-ProRule', 'id': 'PRU00700'}], 'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'PROSITE-ProRule', 'id': 'PRU00700'}], 'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'PROSITE-ProRule', 'id': 'PRU00700'}], 'value': 'Urease'}
+Gene: ureA, Function: {'value': 'Urease'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'HAMAP-Rule', 'id': 'MF_01953'}], 'value': 'Urease subunit alpha'}
+Gene: ureA, Function: {'value': 'Urea transporter 2'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'HAMAP-Rule', 'id': 'MF_01953'}], 'value': 'Urease subunit alpha'}
+Gene: ureA, Function: {'value': 'Urea amidolyase'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'HAMAP-Rule', 'id': 'MF_01953'}], 'value': 'Urease subunit beta'}
+Gene: ureA, Function: {'value': 'Urea transporter 1'}
+Gene: ureA, Function: {'value': 'Urea transporter 1'}
+Gene: ureA, Function: {'value': 'Urea transporter 1'}
+Gene: ureA, Function: {'value': 'Urea transporter 1'}
+Gene: ureA, Function: {'value': 'Urea active transporter'}
+Gene: ureA, Function: {'value': 'Urea transporter 2'}
+Gene: ureA, Function: {'value': 'Urea transporter 2'}
+Gene: ureA, Function: {'evidences': [{'evidenceCode': 'ECO:0000255', 'source': 'HAMAP-Rule', 'id': 'MF_01954'}], 'value': 'Urease subunit beta'}

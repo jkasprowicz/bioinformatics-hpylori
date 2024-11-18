@@ -1,1 +1,2 @@
+Protein_ID	Annotation
 AP026446.1	No annotation found

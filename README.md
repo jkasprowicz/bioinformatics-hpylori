@@ -10,5 +10,5 @@ Este repositório contém os dados genômicos e os resultados das anotações pa
 
 O principal arquivo com a sequência genômica anotada é helicobacter_pylori.fna, que contém as sequências nucleotídicas do genoma. A anotação foi realizada usando a ferramenta Prokka, que gera anotações para genes, rRNA, tRNA e outros elementos funcionais. Arquivos adicionais, como helicobacter_pylori.HAMAP.hmm.tmp.95480.faa, contêm sequências de proteínas previstas com base nas anotações.
 
-![Distribuição tamanho genes](images/figure1.png)
-![Distribuição GC pelo genoma](images/figure2.png)
+![Distribuição tamanho genes](images/Figure_1.png)
+![Distribuição GC pelo genoma](images/Figure_2.png)

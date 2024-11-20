@@ -8,8 +8,8 @@ gene_positions = []
 for record in SeqIO.parse(gbk_file, "genbank"):
     for feature in record.features:
         if feature.type == "CDS":
-            start = feature.location.start.position
-            end = feature.location.end.position
+            start = int(feature.location.start)  # Convert ExactPosition to integer
+            end = int(feature.location.end)    # Convert ExactPosition to integer
             gene_positions.append((start, end))
 
 # Scatter plot of gene start and end positions
